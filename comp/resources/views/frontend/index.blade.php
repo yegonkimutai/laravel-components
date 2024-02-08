@@ -3,8 +3,12 @@
         Custom Components
     </x-slot>
 
+
     <div class='py-5'>
         <div class="container">
+            
+            <x-alert-message />
+            
             <h3> Welcome to Index page </h3>
         </div>
     </div>
