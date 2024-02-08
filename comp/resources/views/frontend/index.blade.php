@@ -5,11 +5,12 @@
 
     @php
         $successMessage = 'Saved Successfully';
+        $type = 'warning';
     @endphp
 
     <div class='py-5'>
         <div class="container">
-            <x-alert-message :message="$successMessage" />
+            <x-alert-message :type="$type" :message="$successMessage" class="py-5" />
 
             <h3> Welcome to Index page </h3>
         </div>
