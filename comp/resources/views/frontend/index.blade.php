@@ -6,13 +6,21 @@
     @php
         $successMessage = 'Saved Successfully';
         $type = 'warning';
+        $value = 'My First Name'
     @endphp
 
     <div class='py-5'>
         <div class="container">
             <x-alert-message :type="$type" :message="$successMessage" class="py-5" />
 
-            <h3> Welcome to Index page </h3>
+            <hr>
+
+            <!-- <x-form.label :value="$value"/> -->
+            
+            <x-form.label>
+                ABC- My first name
+            </x-form.label>
+            <hr>
         </div>
     </div>
 
